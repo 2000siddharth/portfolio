@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddharth Agarwal | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto&family=Special+Elite&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Navbar-->
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler" id="checkbox">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="#" onclick="Hide()">Home</a></li>
+            <li><a href="#about" onclick="Hide()">About</a></li>
+          <li><a href="#skill" onclick="Hide()">Skills</a></li>
+          <li><a href="#project" onclick="Hide()">Project</a></li>
+          <li><a href="contact.html" onclick="Hide()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Cover-->
+  </div>
+  <div class="cover" id="home">
+    <Row>
+      <Col md="auto">
+      <img src="img/avatar.png" alt="Paris" class="cover-img grow shadow-4" />
+      </Col>
+      <Col md="auto">
+      <p class="cover-caption">Siddharth Agarwal</p>
+      <p class="sub-text">Machine Learning and Artificial Intelligence Developer</p>
+      </Col>
+    </Row>
+  </div>
+  <!--About-->
+  <div class="about" id="about">
+    <legend class="about-greet">Hi, I'm Siddharth</legend>
+    <div class="w3-row">
+      <div class="w3-col w3-container m6 l6">
+        <lottie-player class="lottie grow" src="https://assets4.lottiefiles.com/packages/lf20_bXRG9q.json"
+          background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></lottie-player>
+      </div>
+      <div class="w3-col w3-container m6 l6 abt">
+        <p>I'm a Machine Learning developer, a learning data scientist, data analyst with some good amount of experience
+          with standard NLP techniques. I also have good marketing and selling skills, which is inherent to my knack for
+          entrepreneurship.</p>
+        <p>I'm an undergrad from Kolkata. I'm currently pursuing B.Tech in Computer Science & Engineering from <a
+            href="https://heritageit.edu/" target="_blank" rel="noopener noreferrer">Heritage Institute of Technology,
+            Kolkata
+          </a> with graduation due in 2021 .</p>
+      </div>
+    </div>
+    <div class="w3-row">
+      <div class="w3-col w3-container m6 l6 abt">
+        <p>I love exploring new technologies and using them to build applications to solve real world problems.<br><br></p>
+        <p>
+          I am also a believer of open source and community spirit.</p>
+        <p> I'm associated with <a href="https://dschit.com" target="_blank" rel="noopener noreferrer">DSC HIT</a> and
+          <a href="https://gdg.community.dev/gdg-kolkata/" target="_blank" rel="noopener noreferrer">GDG Kolkata</a>.
+        </p>
+      </div>
+      <div class="w3-col w3-container m6 l6">
+        <lottie-player class="lottie grow" src="https://assets3.lottiefiles.com/temp/lf20_TOE9MF.json"
+          background="transparent" speed="1.5" style="width: 500px; height: 500px;" loop autoplay></lottie-player>
+      </div>
+    </div>
+  </div>
+  <!--Skills-->
+  <div class="skill" id="skill">
+    <legend class="skill-greet">Skills</legend>
+    <div class="w3-row">
+      <div class="w3-col w3-container s6 m4 l2 grow" id="skill-adj">
+        <img src="img/TensorFlow.png" alt={skill.name} class="skills-icon" />
+      </div>
+      <div class="w3-col w3-container s6 m4 l2 grow" id="skill-adj">
+        <img src="img/pyspark.png" alt={skill.name} class="skills-icon" />
+      </div>
+      <div class="w3-col w3-container s6 m4 l2 grow" id="skill-adj">
+        <img src="img/keras.png" alt={skill.name} class="skills-icon" />
+      </div>
+      <div class="w3-col w3-container s6 m4 l2 grow" id="skill-adj">
+        <img src="img/Sklearn.png" alt={skill.name} class="skills-icon" />
+      </div>
+      <div class="w3-col w3-container s6 m4 l2 grow" id="skill-adj">
+        <img src="img/Tableau.png" alt={skill.name} class="skills-icon" />
+      </div>
+      <div class="w3-col w3-container s6 m4 l2 grow" id="skill-adj">
+        <img src="img/nltk.jpg" alt={skill.name} class="skills-icon" />
+      </div>
+    </div>
+    <p class="skill-text">Apart from these, I have good knowledge of in non-technical field like Sales, Marketing and
+      Entrepreneurship.</p>
+    <div>
+      <a class="skill-text resume" href="">Click here to View my resume</a>
+    </div>
+    <br>
+  </div>
+  <!--Projects-->
+  <div class="project" id="project">
+    <legend class="project-greet">Projects</legend>
+    <div class="w3-row">
+      <div class="w3-col w3-container s12 m12 l6">
+        <a href="https://github.com/2000siddharth/Youtube_Categorization" class="link mw5 dt hide-child br2 cover bg-center proj-design" id="img1" target="_blank" rel="noopener noreferrer">
+          <span class=" white dtc v-top w-100 h-100 child bg-black-40 child-design pa2 ">
+            I have built a classification model which categorises videos based on their title or description. Data scrapped directly from youtube.com <br> Click to view the project
+          </span>
+        </a>
+      </div>
+      <div class="w3-col w3-container s12 m12 l6">
+        <a href="https://github.com/2000siddharth/Sales_pred_plus_NLP" class="link mw5 dt hide-child br2 cover bg-center proj-design" id="img2" target="_blank" rel="noopener noreferrer">
+          <span class=" white dtc v-top w-100 h-100 child bg-black-40 child-design pa2">
+            This is a sales regression engine for forecasting sales based on previous pipeline data and interactions<br> Click to view the project
+          </span>
+        </a>
+      </div>
+      <div class="w3-col w3-container s12 m12 l6">
+        <a href="https://github.com/2000siddharth/contentbased_recommender" class="link mw5 dt hide-child br2 cover bg-center proj-design" id="img3" target="_blank" rel="noopener noreferrer">
+          <span class=" white dtc v-top w-100 h-100 child bg-black-40 child-design pa2">
+            Content based recommender built on the IMDB movies dataset. Model hosted on heroku using Flask framework.<br> Click to view the project
+          </span>
+        </a>
+      </div>
+      <div class="w3-col w3-container s12 m12 l6">
+        <a href="https://github.com/2000siddharth/sarcasm_detect" class="link mw5 dt hide-child br2 cover bg-center proj-design" id="img4" target="_blank" rel="noopener noreferrer">
+          <span class=" white dtc v-top w-100 h-100 child bg-black-40 child-design pa2">
+            A classification model for classifying news headlines as either sarcastic or not. Extensive EDA also done.<br> Click to view the project
+          </span>
+        </a>
+      </div>
+      <br>
+    </div>
+    
+  </div>
+
+  <footer class="footer">
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/siddharth.agarwal.98478/" target="_blank" rel="noopener noreferrer">
+          <img src="img/facebook.png" alt="Facebook" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/siddharth-agarwal-382590162/" target="_blank" rel="noopener noreferrer">
+          <img src="img/linkedin.png" alt="Linkedin" />
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/2000siddharth" target="_blank" rel="noopener noreferrer">
+          <img src="img/github.png" alt="Github" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.kaggle.com/siddharth2000" target="_blank" rel="noopener noreferrer">
+          <img src="img/kaggle.png" alt="Kaggle" />
+        </a>
+      </li>
+    </ul>
+    <p class="footer-text"><a href="/contact">Contact Me</a></p>
+    <p class="footer-text" id="copyright">
+      Developed by Rohit Howlader &copy; 2020
+      <br />
+
+    </p>
+  </footer>
+</body>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="script.js"></script>
+
+
+</html>
