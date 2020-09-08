@@ -275,8 +275,8 @@ margin-left: -15px;
 
 
 .skills-icon {
-  max-height: 100px;
-  max-width: 200px;
+  max-height: 80px;
+  max-width: 150px;
   margin: 10px;
   background-color: #f1f1f1;
   padding: 5px;
@@ -317,7 +317,7 @@ margin-left: -15px;
 /*Footer*/
 
 .footer {
-  background-color: #98F74E;
+  background-color: #cfecff;
   background-blend-mode: multiply;
   bottom: 0;
   padding: 15px;
