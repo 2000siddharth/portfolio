@@ -240,7 +240,7 @@ margin-left: -15px;
 }
 .abt{
   color: #ffffff;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Cormorant Garamond', serif;
 }
 .abt a
@@ -268,7 +268,7 @@ margin-left: -15px;
 {
   text-align: center;
   margin-top: 40px;
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   padding: 15px;
   font-family: 'Graduate', cursive;
 }
@@ -306,7 +306,7 @@ margin-left: -15px;
 .skill-text
 {
   color: #000;
-  font-size: 40px;
+  font-size: 25px;
   font-family: 'Cormorant Garamond', serif;
 }
 .resume
@@ -336,8 +336,8 @@ margin-left: -15px;
 }
 
 .footer ul li img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 .footer ul li img:hover {
   background-color: #98BF64;
@@ -351,7 +351,7 @@ margin-left: -15px;
 .footer-text
 {
   color: #000;
-  font-size: 40px;
+  font-size: 25px;
   font-family: 'Cormorant Garamond', serif;
   justify-content: center;
   align-items: center;
@@ -362,7 +362,7 @@ margin-left: -15px;
 }
 #copyright
 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 #img1
 {
