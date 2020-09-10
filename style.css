@@ -306,13 +306,14 @@ margin-left: -15px;
 .skill-text
 {
   color: #000;
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Cormorant Garamond', serif;
 }
 .resume
 {
   text-decoration: none;
   color: #013220;
+  font-size: 30px;
 }
 /*Footer*/
 
